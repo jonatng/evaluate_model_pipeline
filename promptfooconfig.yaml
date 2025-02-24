@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+
+description: "My eval"
+
+prompts:
+  - file://prompt.txt
+#  - "Write a concise, funny tweet about {{topic}}"
+  
+
+providers:
+  - "mistral:mistral-medium-latest"
+  - "mistral:mistral-small-latest"
+  - "groq:gemma2-9b-it"
+
+tests:
+  - vars:
+      name: Bob
+      question: Percentage of older adults who are experiencing frequent mental distress?
+  - vars:
+      name: Jane
+      question: Percentage of older adults who report having lost 5 or fewer teeth due to decay or gum disease?
+  - vars:
+      name: Ben
+      question: Percentage of older adults who reported subjective cognitive decline or memory loss that interferes with their ability to engage in social activities or household chores?
+  # - vars:
+  #     name: Dave
+  #     question: What are your shipping and return policies?
+  # - vars:
+  #     name: Jim
+  #     question: Can you provide more information about the product specifications or features?
+  # - vars:
+  #     name: Alice
+  #     question: Can you recommend products that are similar to what I've been looking at?
+  # - vars:
+  #     name: Sophie
+  #     question: Do you have any recommendations for products that are currently popular or trending?
+  # - vars:
+  #     name: Jessie
+  #     question: How can I track my order after it has been shipped?
+  # - vars:
+  #     name: Kim
+  #     question: What payment methods do you accept?
+  # - vars:
+  #     name: Emily
+  #     question: Can you help me with a problem I'm having with my account or order?
