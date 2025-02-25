@@ -1,0 +1,74 @@
+prompts: ['prompt.txt']
+providers:
+  - "mistral:mistral-medium-latest"
+  - "mistral:mistral-small-latest"
+  - "groq:gemma2-9b-it"
+tests:
+  - description: 'Evaluate response for healthy aging query'
+    vars:
+      context: 'file://./retrieve_docs.py'
+      question: 'Percentage of older adults who are experiencing frequent mental distress?' # Add question var
+    assert:
+      - type: contains
+        value: 'mental distress'
+      - type: factuality
+        value: 'decline in mental health'
+      - type: similar
+        value: 'mental health and well-being'
+      - type: context-recall
+        value: 'Key facts that should appear in the context'
+        threshold: 0.6
+      - type: context-relevance
+        threshold: 0.7
+      - type: answer-relevance
+        threshold: 0.8
+
+  - description: 'Evaluate response for the dental hygiene for older adults query'
+    vars:
+      context: 'file://./retrieve_docs.py'
+      question: 'Percentage of older adults who report having lost 5 or fewer teeth due to decay or gum disease?' # Add question var
+    assert:
+      - type: contains
+        value: 'dental hygiene'
+      - type: factuality
+        value: 'dental health'
+      - type: context-recall
+        value: 'Key facts that should appear in the context'
+        threshold: 0.7
+      - type: context-relevance
+        threshold: 0.8
+      - type: answer-relevance
+        threshold: 0.8
+      - type: similar
+        value: 'oral health'
+      - type: moderation
+        value:
+          - harassment
+          - harassment/threatening
+          - sexual
+          - sexual/minors
+
+  - description: 'Evaluate response for the subjective cognitive decline query'
+    vars:
+      context: 'file://./retrieve_docs.py'
+      question: 'Percentage of older adults who reported subjective cognitive decline or memory loss that interferes with their ability to engage in social activities or household chores?' # Add question var
+    assert:
+      - type: contains
+        value: 'subjective cognitive decline'
+      - type: factuality
+        value: 'cognitive decline and memory loss'
+      - type: context-recall
+        value: 'Key facts that should appear in the context'
+        threshold: 0.7
+      - type: context-relevance
+        threshold: 0.7
+      - type: answer-relevance
+        threshold: 0.8
+      - type: similar
+        value: 'cognitive health and memory loss'
+      - type: moderation
+        value:
+          - harassment
+          - harassment/threatening
+          - sexual
+          - sexual/minors

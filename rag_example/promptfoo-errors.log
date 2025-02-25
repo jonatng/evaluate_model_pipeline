@@ -1,0 +1,321 @@
+2025-02-25T07:02:38.465Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 3, in <module>
+    from langchain_openai import OpenAIEmbeddings
+ModuleNotFoundError: No module named 'langchain_openai'
+2025-02-25T07:02:38.467Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 3, in <module>
+    from langchain_openai import OpenAIEmbeddings
+ModuleNotFoundError: No module named 'langchain_openai'
+2025-02-25T07:02:38.468Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 3, in <module>
+    from langchain_openai import OpenAIEmbeddings
+ModuleNotFoundError: No module named 'langchain_openai'
+2025-02-25T07:02:38.468Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 3, in <module>
+    from langchain_openai import OpenAIEmbeddings
+ModuleNotFoundError: No module named 'langchain_openai'
+2025-02-25T07:02:38.553Z [ERROR]: Error running Python script: ModuleNotFoundError: No module named 'langchain_openai'
+Stack Trace: Error: ModuleNotFoundError: No module named 'langchain_openai'
+    at PythonShell.parseError (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:507:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 3, in <module>
+      from langchain_openai import OpenAIEmbeddings
+2025-02-25T07:04:25.627Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+2025-02-25T07:04:25.628Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import MistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:04:25.628Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import MistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:04:25.629Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import MistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:04:25.630Z [ERROR]: spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import MistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:04:25.725Z [ERROR]: Error running Python script: ModuleNotFoundError: No module named 'langchain_mistralai'
+Stack Trace: Error: ModuleNotFoundError: No module named 'langchain_mistralai'
+    at PythonShell.parseError (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:507:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+      from langchain_mistralai import MistralAI
+2025-02-25T07:06:35.739Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import ChatMistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:06:35.740Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import ChatMistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:06:35.741Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import ChatMistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:06:35.741Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import ChatMistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:06:35.830Z [ERROR]: Error running Python script: ModuleNotFoundError: No module named 'langchain_mistralai'
+Stack Trace: Error: ModuleNotFoundError: No module named 'langchain_mistralai'
+    at PythonShell.parseError (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:507:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+      from langchain_mistralai import ChatMistralAI
+2025-02-25T07:07:20.217Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import ChatMistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:07:20.218Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import ChatMistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:07:20.219Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import ChatMistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:07:20.219Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+    from langchain_mistralai import ChatMistralAI
+ModuleNotFoundError: No module named 'langchain_mistralai'
+2025-02-25T07:07:20.308Z [ERROR]: Error running Python script: ModuleNotFoundError: No module named 'langchain_mistralai'
+Stack Trace: Error: ModuleNotFoundError: No module named 'langchain_mistralai'
+    at PythonShell.parseError (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:507:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 5, in <module>
+      from langchain_mistralai import ChatMistralAI
+2025-02-25T07:20:50.174Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 4, in <module>
+    from __module_name__ import MistralAIEmbeddings
+ModuleNotFoundError: No module named '__module_name__'
+2025-02-25T07:20:50.175Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 4, in <module>
+    from __module_name__ import MistralAIEmbeddings
+ModuleNotFoundError: No module named '__module_name__'
+2025-02-25T07:20:50.176Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 4, in <module>
+    from __module_name__ import MistralAIEmbeddings
+ModuleNotFoundError: No module named '__module_name__'
+2025-02-25T07:20:50.176Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 4, in <module>
+    from __module_name__ import MistralAIEmbeddings
+ModuleNotFoundError: No module named '__module_name__'
+2025-02-25T07:20:50.261Z [ERROR]: Error running Python script: ModuleNotFoundError: No module named '__module_name__'
+Stack Trace: Error: ModuleNotFoundError: No module named '__module_name__'
+    at PythonShell.parseError (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:507:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 4, in <module>
+      from __module_name__ import MistralAIEmbeddings
+2025-02-25T07:21:22.637Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
+  warnings.warn(
+2025-02-25T07:21:22.640Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
+  warnings.warn(
+2025-02-25T07:21:22.640Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
+  warnings.warn(
+2025-02-25T07:21:22.645Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
+  warnings.warn(
+2025-02-25T07:25:21.949Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
+  warnings.warn(
+2025-02-25T07:25:21.952Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
+  warnings.warn(
+2025-02-25T07:25:21.952Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
+  warnings.warn(
+2025-02-25T07:25:22.375Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
+  warnings.warn(
