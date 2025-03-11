@@ -1,0 +1,18 @@
+description: "My eval"
+
+prompts:
+  - file://prompt.txt
+
+providers:
+- id: mistral:mistral-medium-latest
+- id: mistral:mistral-small-latest
+- id: groq:groq-small-latest
+- id: openai:gpt-4o-mini
+
+tests:
+  - vars:
+      name: Bob
+      question: Find me the top 5 test engineer candidates with selenium, pytest, karate, and zephyr experience on linkedin
+  - vars:
+      name: Jane
+      question: Find the top 5 software engineer candidates with AWS ETL, Orchestration, python experience on linkedin
