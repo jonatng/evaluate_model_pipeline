@@ -319,3 +319,64 @@ Stack Trace: Error: ModuleNotFoundError: No module named '__module_name__'
   warnings.warn(
 2025-02-25T07:25:22.375Z [ERROR]: /Users/jonatng/evaluate_model_pipeline/env/lib/python3.11/site-packages/langchain_mistralai/embeddings.py:181: UserWarning: Could not download mistral tokenizer from Huggingface for calculating batch sizes. Set a Huggingface token via the HF_TOKEN environment variable to download the real tokenizer. Falling back to a dummy tokenizer that uses `len()`.
   warnings.warn(
+2025-02-26T04:06:55.734Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 1, in <module>
+    from langchain_community.document_loaders import TextLoader
+ModuleNotFoundError: No module named 'langchain_community'
+2025-02-26T04:06:55.734Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 1, in <module>
+    from langchain_community.document_loaders import TextLoader
+ModuleNotFoundError: No module named 'langchain_community'
+2025-02-26T04:06:55.735Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 1, in <module>
+    from langchain_community.document_loaders import TextLoader
+ModuleNotFoundError: No module named 'langchain_community'
+2025-02-26T04:06:55.735Z [ERROR]: Traceback (most recent call last):
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 1, in <module>
+    from langchain_community.document_loaders import TextLoader
+ModuleNotFoundError: No module named 'langchain_community'
+2025-02-26T04:06:55.744Z [ERROR]: Error running Python script: ModuleNotFoundError: No module named 'langchain_community'
+Stack Trace: Error: ModuleNotFoundError: No module named 'langchain_community'
+    at PythonShell.parseError (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:507:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/Cellar/promptfoo/0.104.4/libexec/lib/node_modules/promptfoo/dist/src/python/wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "/Users/jonatng/evaluate_model_pipeline/rag_example/retrieve_docs.py", line 1, in <module>
+      from langchain_community.document_loaders import TextLoader
